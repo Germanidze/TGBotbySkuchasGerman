@@ -9,7 +9,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemo
 from aiogram.dispatcher import FSMContext
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 #dispatcher - ответственен за апдейты, а executor за запуск и связь с ботом и пользователем
-TOKEN = '6093208162:AAHJVehSLCu8HyAp0hzfsTOBGvj3MC0j604'
+TOKEN = '...'
 #создаём переменную, в которой записан наш токен, отсылающий к боту
 bot = Bot(token=TOKEN)
 #привязываем токен к боту(специальная функция)
